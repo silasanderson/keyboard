@@ -29,7 +29,7 @@ xkb_symbols "colemak_wide" {
     key <AD08> { [            l,            L,         lstroke,          Lstroke ] };
     key <AD09> { [            u,            U,          uacute,           Uacute ] };
     key <AD10> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
-    key <AD11> { [        colon,    semicolon,      odiaeresis,       Odiaeresis ] };
+    key <AD11> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
     key <AD12> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
 
@@ -56,7 +56,9 @@ xkb_symbols "colemak_wide" {
     key <AB09> { [        comma,         less,    dead_cedilla,       asciitilde ] };
     key <AB10> { [       period,      greater,   dead_abovedot,       asciitilde ] };
 
-    key <CAPS> { [    BackSpace,    BackSpace,       BackSpace,        BackSpace ] };
+    key <CAPS> { [ Tab ] };
+    key <TAB>  { [ Escape ] };
+    key <ESC>  { [ Caps ] };
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
 };
