@@ -19,37 +19,37 @@ xkb_symbols "colemak_wide" {
     key <AE11> { [            0,   parenright, rightsinglequotemark,  rightdoublequotemark ] };
     key <AE12> { [        minus,   underscore,          endash,           emdash ] };
 
-    key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
-    key <AD02> { [            w,            W,           aring,            Aring ] };
-    key <AD03> { [            f,            F,          atilde,           Atilde ] };
-    key <AD04> { [            p,            P,          oslash,         Ooblique ] };
-    key <AD05> { [            g,            G,     dead_ogonek,       asciitilde ] };
+    key <AD01> { [            q,            Q,      adiaeresis,                0 ] };
+    key <AD02> { [            w,            W,           aring,                1 ] };
+    key <AD03> { [            f,            F,          atilde,                2 ] };
+    key <AD04> { [            p,            P,          oslash,                3 ] };
+    key <AD05> { [            g,            G,            plus,             plus ] };
     key <AD06> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
     key <AD07> { [            j,            J,         dstroke,          Dstroke ] };
-    key <AD08> { [            l,            L,         lstroke,          Lstroke ] };
-    key <AD09> { [            u,            U,          uacute,           Uacute ] };
+    key <AD08> { [            l,            L,           sshar,          Lstroke ] };
+    key <AD09> { [            u,            U,  dead_diaeresis,           Uacute ] };
     key <AD10> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
     key <AD11> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
     key <AD12> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
 
-    key <AC01> { [            a,            A,          aacute,           Aacute ] };
-    key <AC02> { [            r,            R,      dead_grave,       asciitilde ] };
-    key <AC03> { [            s,            S,          ssharp,       asciitilde ] };
-    key <AC04> { [            t,            T,      dead_acute, dead_doubleacute ] };
-    key <AC05> { [            d,            D,  dead_diaeresis,       asciitilde ] };
+    key <AC01> { [            a,            A,       braceleft,            equal ] };
+    key <AC02> { [            r,            R,     bracketleft,                4 ] };
+    key <AC03> { [            s,            S,       parenleft,                5 ] };
+    key <AC04> { [            t,            T,            plus,                6 ] };
+    key <AC05> { [            d,            D,           minus,            minus ] };
     key <AC06> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
-    key <AC07> { [            h,            H,      dead_caron,       asciitilde ] };
-    key <AC08> { [            n,            N,          ntilde,           Ntilde ] };
-    key <AC09> { [            e,            E,          eacute,           Eacute ] };
-    key <AC10> { [            i,            I,          iacute,           Iacute ] };
-    key <AC11> { [            o,            O,          oacute,           Oacute ] };
+    key <AC07> { [            h,            H,      underscore,       asciitilde ] };
+    key <AC08> { [            n,            N,           equal,           Ntilde ] };
+    key <AC09> { [            e,            E,      parenright,           Eacute ] };
+    key <AC10> { [            i,            I,    bracketright,           Iacute ] };
+    key <AC11> { [            o,            O,      braceright,           Oacute ] };
 
-    key <AB01> { [            z,            Z,              ae,               AE ] };
-    key <AB02> { [            x,            X, dead_circumflex,       asciitilde ] };
-    key <AB03> { [            c,            C,        ccedilla,         Ccedilla ] };
-    key <AB04> { [            v,            V,              oe,               OE ] };
-    key <AB05> { [        slash,     question,    questiondown,       asciitilde ] };
+    key <AB01> { [            z,            Z,              ae,                7 ] };
+    key <AB02> { [            x,            X, dead_circumflex,                8 ] };
+    key <AB03> { [            c,            C,        ccedilla,                9 ] };
+    key <AB04> { [            v,            V,              oe,         asterisk ] };
+    key <AB05> { [        slash,     question,    questiondown,            slash ] };
     key <AB06> { [            b,            B,      dead_breve,       asciitilde ] };
     key <AB07> { [            k,            K,  dead_abovering,       asciitilde ] };
     key <AB08> { [            m,            M,     dead_macron,       asciitilde ] };
@@ -58,7 +58,9 @@ xkb_symbols "colemak_wide" {
 
     key <CAPS> { [ Tab ] };
     key <TAB>  { [ Escape ] };
-    key <ESC>  { [ Caps ] };
+    key <ESC>  { [ Caps_Lock ] };
+    key <PRSC> { [ ISO_Level3_Shift ] };
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
-};
+
+}; 
