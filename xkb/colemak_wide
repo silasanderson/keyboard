@@ -6,18 +6,19 @@ xkb_symbols "colemak_wide" {
 
     // Alphanumeric section
     key <TLDE> { [        grave,   asciitilde,      dead_tilde,       asciitilde ] };
-    key <AE01> { [            1,       exclam,      exclamdown,      onesuperior ] };
-    key <AE02> { [            2,           at,       masculine,      twosuperior ] };
-    key <AE03> { [            3,   numbersign,     ordfeminine,    threesuperior ] };
-    key <AE04> { [            4,       dollar,            cent,         sterling ] };
-    key <AE05> { [            5,      percent,        EuroSign,              yen ] };
-    key <AE06> { [            6,  asciicircum,         hstroke,          Hstroke ] };
+    key <AE01> { [            1,       exclam,              F1,      onesuperior ] };
+    key <AE02> { [            2,           at,              F2,      twosuperior ] };
+    key <AE03> { [            3,   numbersign,              F3,    threesuperior ] };
+    key <AE04> { [            4,       dollar,              F4,         sterling ] };
+    key <AE05> { [            5,      percent,              F5,              yen ] };
+    key <AE06> { [            6,  asciicircum,              F6,          Hstroke ] };
     key <AE07> { [        equal,         plus,        multiply,         division ] };
-    key <AE08> { [            7,    ampersand,             eth,              ETH ] };
-    key <AE09> { [            8,     asterisk,           thorn,            THORN ] };
-    key <AE10> { [            9,    parenleft,  leftsinglequotemark,  leftdoublequotemark ] };
-    key <AE11> { [            0,   parenright, rightsinglequotemark,  rightdoublequotemark ] };
-    key <AE12> { [        minus,   underscore,          endash,           emdash ] };
+    key <AE08> { [            7,    ampersand,              F7,              ETH ] };
+    key <AE09> { [            8,     asterisk,              F8,            THORN ] };
+    key <AE10> { [            9,    parenleft,              F9,  leftdoublequotemark ] };
+    key <AE11> { [            0,   parenright,             F10,  rightdoublequotemark ] };
+    key <AE12> { [        minus,   underscore,             F11,           emdash ] };
+    key <BKSP> { [    BackSpace,    BackSpace,             F12,           emdash ] };
 
     key <AD01> { [            q,            Q,      adiaeresis,                0 ] };
     key <AD02> { [            w,            W,           aring,                1 ] };
@@ -56,11 +57,12 @@ xkb_symbols "colemak_wide" {
     key <AB09> { [        comma,         less,    dead_cedilla,       asciitilde ] };
     key <AB10> { [       period,      greater,   dead_abovedot,       asciitilde ] };
 
-    key <CAPS> { [ Tab ] };
-    key <TAB>  { [ Escape ] };
-    key <ESC>  { [ Caps_Lock ] };
-    key <PRSC> { [ ISO_Level3_Shift ] };
+    key <CAPS> { [ Tab                                                           ] };
+    key <TAB>  { [ Escape                                                        ] };
+    key <ESC>  { [ Caps_Lock                                                     ] };
+    key <PRSC> { [ ISO_Level3_Shift                                              ] };
+    key <LCTL> { [ ISO_Level3_Shift                                              ] };
+    key <LWIN> { [ Control_L                                                     ] };
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
-
 }; 
