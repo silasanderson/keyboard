@@ -58,11 +58,12 @@ xkb_symbols "colemak_wide" {
     key <AB10> { [       period,      greater,   dead_abovedot,       asciitilde ] };
 
     key <CAPS> { [ Tab                                                           ] };
+    key <DELE> { [ Delete                                                        ] };
     key <TAB>  { [ Escape                                                        ] };
     key <ESC>  { [ Caps_Lock                                                     ] };
     key <PRSC> { [ ISO_Level3_Shift                                              ] };
-    key <LCTL> { [ ISO_Level3_Shift                                              ] };
-    key <LWIN> { [ Control_L                                                     ] };
+#    key <LCTL> { [ ISO_Level3_Shift                                              ] };
+#    key <LWIN> { [ Control_L                                                     ] };
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
 }; 
